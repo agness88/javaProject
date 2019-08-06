@@ -7,6 +7,8 @@ public class Main {
         System.out.println(returnAge());
         System.out.println(returnName());
         printMathOperations(4,5);
+        System.out.println(IsNumberEven(6));
+        System.out.println(IsNumberEven(7));
     }
 
     static int returnAge() {
@@ -21,5 +23,13 @@ public class Main {
         System.out.println("Różnica = " +(number1-number2));
         System.out.println("Iloczyn = " + (number1*number2));
     }
+    static boolean IsNumberEven (int number1){
+        if ( number1 % 2 ==0){
+            return true;
+        }
+        else return false;
+    }
+
+
 
 }
